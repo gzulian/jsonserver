@@ -2,7 +2,7 @@
     "code": 200,
     "message": "OK",
     "data": [{
-        "id":int,
-        "nameCompany":string
+        "id":1,
+        "nameCompany":"Empresa test"
     }]
 }
