@@ -1,5 +1,5 @@
 {
-    "companies": [{
+    "buyers": [{
         "id":1,
         "nameCompany":"Empresa test 1"
     },
