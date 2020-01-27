@@ -1,7 +1,19 @@
 {
-    "data": [{
+    "companies": [{
         "id":1,
-        "nameCompany":"Empresa test"
+        "nameCompany":"Empresa test 1"
+    },
+    {
+        "id":2,
+        "nameCompany":"Empresa test 2"
+    }],
+    "changestypes": [{
+        "code":"xxx1",
+        "nameCompany":"Cambio de fecha"
+    },
+    {
+        "code":"xxx2",
+        "nameCompany":"Cambio de fecha 2"
     }]
 
 }
