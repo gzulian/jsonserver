@@ -9,11 +9,11 @@
     }],
     "changestypes": [{
         "code":"xxx1",
-        "nameCompany":"Cambio de fecha"
+        "name":"Cambio de fecha"
     },
     {
         "code":"xxx2",
-        "nameCompany":"Cambio de fecha 2"
+        "name":"Cambio de fecha 2"
     }]
 
 }
