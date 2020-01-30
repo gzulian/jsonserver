@@ -43,6 +43,44 @@
 			"code": "{:code}"
 		}]
 
-	}
+	},
+	"revisions":[
+        {
+        "bidId":1111,
+        "buyerName": "CompanyName1",
+        "lastChangeDate": "27/01/2020 15:31",
+        "totalChange": 1,
+        "changeTypeName": "Cambio fecha de cierre",
+        "changeTypeCode": "L1",
+        "lastExecutor":"Gabriel Zulian"
+        },
+        {
+        "bidId":2222,
+        "buyerName": "CompanyName2",
+        "lastChangeDate":"28-01-2020 11:22",
+        "totalChange":2,
+        "changeTypeName":"Cambio en oferta de proveedor",
+        "changeTypeCode":"L2",
+        "lastExecutor":"Gabriel Zulian"
+        },
+        {
+        "bidId":2222,
+        "buyerName": "CompanyName2",
+        "lastChangeDate":"29/01/2020 15:10",
+        "totalChange":2,
+        "changeTypeName":"Cambio fecha de cierre",
+        "changeTypeCode":"L1",
+        "lastExecutor":"Daniel Zambrano"
+        },
+        {
+        "bidId":3333,
+        "buyerName": "CompanyName3",
+        "lastChangeDate":"30/01/2020 12:01",
+        "totalChange":1,
+        "changeTypeName":"Publicar licitación cerrada",
+        "changeTypeCode":"L3",
+        "lastExecutor":"Guillermo Lucero"
+        }
+    ]
 
 }
