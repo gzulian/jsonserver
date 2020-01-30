@@ -81,6 +81,24 @@
         "changeTypeCode":"L3",
         "lastExecutor":"Guillermo Lucero"
         }
+    ],
+	"bids": [{
+		"bidId":2222,
+		"dateCreate":"15/01/2020 10:30",
+		"datePublish":"16/01/2020 9:01",
+		"dateCloseRequet":"30/01/2020 16:00",
+		"buyeName": "CompanyName2",
+		"executorName": "Perico los Palotes",
+		"revisions":[{
+		    "changeDate":"29/01/2020 15:10",
+		    "executor":"Daniel Zambrano",
+		    "changeTypeName":"Cambio fecha de cierre",
+		    "detail":{
+			"newDate":"03/02/2020 16:00",
+			"lastDate":"30/01/2020 16:00"
+		    }
+		}]
+	    }
     ]
 
 }
