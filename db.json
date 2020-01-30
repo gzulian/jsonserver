@@ -30,25 +30,25 @@
             "name":"Volver a evaluación licitación cerrada",
             "code":"{:code}"
         }
-    ],
+    ]},{
     "Órdenes de compra":[
         {
             "name":"",
             "code":"{:code}"
         }
-    ],
-    "Preventa":[
+    ]},
+    "Preventa":{[
         {
             "name":"",
             "code":"{:code}"
         }
-    ],
-    "Facturas":[
+    ]},
+    "Facturas":{[
         {
             "name":"",
             "code":"{:code}"
         }
-    ]
+    ]}
 
 }
     ]
