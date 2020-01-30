@@ -7,13 +7,50 @@
         "id":2,
         "nameCompany":"Empresa test 2"
     }],
-    "changestypes": [{
-        "code":"xxx1",
-        "name":"Cambio de fecha"
-    },
-    {
-        "code":"xxx2",
-        "name":"Cambio de fecha 2"
-    }]
+    "changestypes": [
+        {
+    "Licitaciones":[
+        {
+            "name":"Cambio de fecha de cierre",
+            "code":"{:code}"
+        },
+        {
+            "name":"Cambio en oferta de proveedor",
+            "code":"{:code}"
+        },
+        {
+            "name":"Cambio en info de licitación",
+            "code":"{:code}"
+        },
+        {
+            "name":"Publicar licitación cerrada",
+            "code":"{:code}"
+        }
+        {
+            "name":"Volver a evaluación licitación cerrada",
+            "code":"{:code}"
+        }
+    ],
+    "Órdenes de compra":[
+        {
+            "name":"",
+            "code":"{:code}"
+        }
+    ],
+    "Preventa":[
+        {
+            "name":"",
+            "code":"{:code}"
+        }
+    ],
+    "Facturas":[
+        {
+            "name":"",
+            "code":"{:code}"
+        }
+    ]
+
+}
+    ]
 
 }
