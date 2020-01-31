@@ -113,6 +113,48 @@
 			    "detail":"03-02-2020 16:00 => 04-02-2020 16:00"
 			  }
 		      ]
+		},
+	"createrevision":
+		{
+		   	"bidId":string,
+			"buyerId":string,
+			"changeTypeName":string,
+			"changeTypeCode":string,
+			"executorName":string,
+			"data":{
+			    "newDate":string,
+			    "lastDate":string
+			}
+		},
+	"findrevision":
+		{
+			"bidId":112222,
+			"dateCreate":"2020-03-01",
+			"datePublish":"2020-03-01",
+			"dateCloseRequest":"2020-03-01",
+			"buyerName": "El terrible",
+			"executorName": "El ejecutor",
+			"revisions":[{
+			    "changeDate":"2020-03-01",
+			    "executor":"Ejecutor",
+			    "changeTypeName":"TypeName",
+			    "changeTypeCode":"TypeCode",
+			    "detail":{
+				"newDate":String,
+				"lastDate":string
+			    }
+			},
+			{
+			    "changeDate":"2020-03-01",
+			    "executor":"Ejecutor",
+			    "changeTypeName":"TypeName",
+			    "changeTypeCode":"TypeCode",
+			    "detail":{
+				"newDate":String,
+				"lastDate":string
+			    }
+			}
+		    ]
 		}
 		
 
