@@ -100,7 +100,7 @@
 		}]
 	    }
     	],
-	"validation":[
+	"validation":
 		{
 		      "documentId": 2801,
 		      "dateCloseBid": "29-01-2020 16:00",
@@ -113,14 +113,7 @@
 			    "detail":"03-02-2020 16:00 => 04-02-2020 16:00"
 			  }
 		      ]
-		},
-		{
-		    "documentId": 2802,
-		    "code": 400,
-		    "message": "PURCHASEBID_IS_CLOSED",
-		    "data": {
-		    }
 		}
-	]
+		
 
 }
