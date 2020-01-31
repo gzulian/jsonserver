@@ -126,7 +126,7 @@
 			    "lastDate":"string"
 			}
 		},
-	"findrevision":
+	"revision":
 		{
 			"bidId":112222,
 			"dateCreate":"2020-03-01",
