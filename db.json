@@ -1,13 +1,4 @@
 {
-	"buyers": [{
-			"id": 1,
-			"nameCompany": "Empresa test 1"
-		},
-		{
-			"id": 2,
-			"nameCompany": "Empresa test 2"
-		}
-	],
 	"changestypes": {
 		"Licitaciones": [{
 				"name": "Cambio de fecha de cierre",
@@ -82,22 +73,34 @@
         "lastExecutor":"Guillermo Lucero"
         }
     ],
-	"bids": [{
+	"revision": [{
 		"bidId":2222,
 		"dateCreate":"15/01/2020 10:30",
 		"datePublish":"16/01/2020 9:01",
 		"dateCloseBid":"30/01/2020 16:00",
 		"buyerName": "CompanyName2",
 		"executorName": "Perico los Palotes",
-		"revisions":[{
-		    "changeDate":"29/01/2020 15:10",
-		    "executor":"Daniel Zambrano",
-		    "changeTypeName":"Cambio fecha de cierre",
-		    "detail":{
-			"newDate":"03/02/2020 16:00",
-			"lastDate":"30/01/2020 16:00"
-		    }
-		}]
+		"revisions":[
+			{
+			    "changeDate":"29/01/2020 15:10",
+			    "executor":"Daniel Zambrano",
+			    "changeTypeName":"Cambio fecha de cierre",
+			    "detail":{
+				"newDate":"03/02/2020 16:00",
+				"lastDate":"30/01/2020 16:00"
+			     }
+			},
+			{
+			    "changeDate":"2020-03-01",
+			    "executor":"Ejecutor",
+			    "changeTypeName":"TypeName",
+			    "changeTypeCode":"TypeCode",
+			    "detail":{
+				"newDate":"2020-03-01",
+				"lastDate":"2020-03-01"
+			    }
+			}
+		]
 	    }
     	],
 	"validation":
@@ -125,37 +128,6 @@
 			    "newDate":"string",
 			    "lastDate":"string"
 			}
-		},
-	"revision":
-		{
-			"bidId":112222,
-			"dateCreate":"2020-03-01",
-			"datePublish":"2020-03-01",
-			"dateCloseRequest":"2020-03-01",
-			"buyerName": "El terrible",
-			"executorName": "El ejecutor",
-			"revisions":[{
-			    "changeDate":"2020-03-01",
-			    "executor":"Ejecutor",
-			    "changeTypeName":"TypeName",
-			    "changeTypeCode":"TypeCode",
-			    "detail":{
-				"newDate":"2020-03-01",
-				"lastDate":"2020-03-01"
-			    }
-			},
-			{
-			    "changeDate":"2020-03-01",
-			    "executor":"Ejecutor",
-			    "changeTypeName":"TypeName",
-			    "changeTypeCode":"TypeCode",
-			    "detail":{
-				"newDate":"2020-03-01",
-				"lastDate":"2020-03-01"
-			    }
-			}
-		    ]
 		}
-		
 
 }
