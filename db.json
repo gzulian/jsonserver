@@ -116,14 +116,14 @@
 		},
 	"createrevision":
 		{
-		   	"bidId":string,
-			"buyerId":string,
-			"changeTypeName":string,
-			"changeTypeCode":string,
-			"executorName":string,
+		   	"bidId":4444,
+			"buyerId":1222,
+			"changeTypeName":"string",
+			"changeTypeCode":"string",
+			"executorName":"string",
 			"data":{
-			    "newDate":string,
-			    "lastDate":string
+			    "newDate":"string",
+			    "lastDate":"string"
 			}
 		},
 	"findrevision":
@@ -140,8 +140,8 @@
 			    "changeTypeName":"TypeName",
 			    "changeTypeCode":"TypeCode",
 			    "detail":{
-				"newDate":String,
-				"lastDate":string
+				"newDate":"2020-03-01",
+				"lastDate":"2020-03-01"
 			    }
 			},
 			{
@@ -150,8 +150,8 @@
 			    "changeTypeName":"TypeName",
 			    "changeTypeCode":"TypeCode",
 			    "detail":{
-				"newDate":String,
-				"lastDate":string
+				"newDate":"2020-03-01",
+				"lastDate":"2020-03-01"
 			    }
 			}
 		    ]
