@@ -43,7 +43,8 @@
         "totalChange": 1,
         "changeTypeName": "Cambio fecha de cierre",
         "changeTypeCode": "L1",
-        "lastExecutor":"Gabriel Zulian"
+        "lastExecutor":"Gabriel Zulian",
+	"totalChanges":0
         },
         {
         "bidId":2222,
@@ -52,7 +53,9 @@
         "totalChange":2,
         "changeTypeName":"Cambio en oferta de proveedor",
         "changeTypeCode":"L2",
-        "lastExecutor":"Gabriel Zulian"
+        "lastExecutor":"Gabriel Zulian",
+	"totalChanges":5
+		
         },
         {
         "bidId":2222,
@@ -61,7 +64,8 @@
         "totalChange":2,
         "changeTypeName":"Cambio fecha de cierre",
         "changeTypeCode":"L1",
-        "lastExecutor":"Daniel Zambrano"
+        "lastExecutor":"Daniel Zambrano",
+	"totalChanges":0
         },
         {
         "bidId":3333,
@@ -70,7 +74,8 @@
         "totalChange":1,
         "changeTypeName":"Publicar licitación cerrada",
         "changeTypeCode":"L3",
-        "lastExecutor":"Guillermo Lucero"
+        "lastExecutor":"Guillermo Lucero",
+	"totalChanges":5
         }
     ],
 	"revision": [{
