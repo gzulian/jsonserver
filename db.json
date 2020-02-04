@@ -83,7 +83,8 @@
 	     {
 			"page":1,
 			"limit":25,
-			"total":60
+			"total":60,
+		     	"pages":4
 	     }
 
 	},
