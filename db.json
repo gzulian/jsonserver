@@ -36,56 +36,39 @@
 
 	},
 	"revisions":{
-    	"data":[
-            {
-                "bidId":1111,
-                "buyerName": "CompanyName1",
-                "lastChangeDate": "27/01/2020 15:31",
-                "totalChange": 1,
-                "changeTypeName": "Cambio fecha de cierre",
-                "changeTypeCode": "L1",
-                "lastExecutor":"Gabriel Zulian",
-                "totalChanges":0
-            },
-            {
-                "bidId":2222,
-                "buyerName": "CompanyName2",
-                "lastChangeDate":"28-01-2020 11:22",
-                "totalChange":2,
-                "changeTypeName":"Cambio en oferta de proveedor",
-                "changeTypeCode":"L2",
-                "lastExecutor":"Gabriel Zulian",
-                "totalChanges":5
-            
-            },
-            {
-                "bidId":2222,
-                "buyerName": "CompanyName2",
-                "lastChangeDate":"29/01/2020 15:10",
-                "totalChange":2,
-                "changeTypeName":"Cambio fecha de cierre",
-                "changeTypeCode":"L1",
-                "lastExecutor":"Daniel Zambrano",
-                "totalChanges":0
-            },
-            {
-                "bidId":3333,
-                "buyerName": "CompanyName3",
-                "lastChangeDate":"30/01/2020 12:01",
-                "totalChange":1,
-                "changeTypeName":"Publicar licitación cerrada",
-                "changeTypeCode":"L3",
-                "lastExecutor":"Guillermo Lucero",
-                "totalChanges":5    
-            }
-	    ],
-	    "metadata":
-	     {
-			"page":1,
-			"limit":25,
-			"total":60,
-		     	"pages":4
-	     }
+    	    "code": 200,
+	    "message": "OK",
+	    "data": {
+		"billId":3546,
+		"dateCreate":"03-03-2019",
+		"companyName": "TEST",
+		"url": "HTTP://.....",
+		"correlative":354655,
+		"revisions":[
+			{
+			    "changeDate":"2020-03-03",
+			    "executor":"GMO",
+			    "changeTypeName":"Cambio de URL",
+			    "detail":{
+				"lastUrl":"http://...",
+				"lastCorrelative":354655,
+				"newUrl":"http://...",
+				"newCorrelative":355555
+			    }
+			},	
+			{
+			    "changeDate":"2020-03-03",
+			    "executor":"GMO",
+			    "changeTypeName":"Cambio de URL",
+			    "detail":{
+				"lastUrl":"http://...",
+				"lastCorrelative":354655,
+				"newUrl":"http://...",
+				"newCorrelative":355555
+			    }
+			}    
+		]
+	    }
 
 	},
 	"revision": [{
